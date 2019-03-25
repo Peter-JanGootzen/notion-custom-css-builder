@@ -1,0 +1,20 @@
+.notion-frame {
+    background: #232629 none repeat scroll 0% 0% !important
+}
+.notion-sidebar-container {
+    background: #232629 none repeat scroll 0% 0% !important
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #232629;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #E9EAEA;
+}

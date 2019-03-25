@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=Notion
+Type=Application
+Comment=All-in-one workspace
+Exec=|/notion-linux-x64/notion
+Icon=|/icon.png
