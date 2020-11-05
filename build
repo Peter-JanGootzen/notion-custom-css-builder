@@ -1,4 +1,4 @@
 #!/bin/bash
 rm -rf ./notion-linux-x64
-nativefier --name "Notion" "https://notion.so/peterjan" --inject ./styles.css --icon ./icon.png --single-instance --verbose
+nativefier --name "Notion" "https://notion.so" --inject ./styles.css --icon ./icon.png --single-instance --verbose
 sed "s#|#$(pwd)#g" notion.desktop > $HOME/.local/share/applications/notion.desktop
